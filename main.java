@@ -17,6 +17,24 @@ public class main {
                 operation(command);
             }
         }
+        else{
+            //File
+            String filePath = (System.getProperty("user.dir")+input.substring(input.indexOf('/')));
+            File file = new File(filePath); 
+            Scanner sc = new Scanner(file); 
+            String line;
+
+            
+            while(sc.hasNext()){
+                line = sc.nextLine();
+                String command[];
+                command = line.split(" ");
+
+                operation(command);
+            }
+        }
+        scan.close();
+    
     }
      public static void operation(String[] command){
       
