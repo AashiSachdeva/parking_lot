@@ -3,7 +3,7 @@ There are three java files where the main source code is written.
 
 
 
-Run the shell script with : ./parking_lot.sh
+Run the shell script with : ./parking_lot.sh in the directory src/com/main
 
 If an interactive shell is needed then enter ./parking_lot. It gives and Interactive shell
 
