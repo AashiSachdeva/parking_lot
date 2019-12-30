@@ -16,6 +16,7 @@ Unit Testing
 For Unit Testing, there is a file named as Test_Parking_Lot.java in test_parking_lot package.
 In this, a test case is taken and on the basis of this particular test case all the unit  functions are tested.
    By running this file, it is found that all the test cases are passed.
+RUN THIS FILE IN ECLIPSE,though a scrrenshot is added to show the result
 
 
 To test any other case, one can change the content of file_inputs.txt file and results will be displayed.
