@@ -1,5 +1,6 @@
 src->com->main
 There are three java files where the main source code is written.
+
 test_parking_lot contains Test_Parking_Lot.java where unit testing code is written.
 
 
