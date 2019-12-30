@@ -1,0 +1,19 @@
+Src->Com->Main
+There are three java files where the main source code is written.
+
+
+
+Run the shell script with : ./parking_lot.sh
+
+If an interactive shell is needed then enter ./parking_lot. It gives and Interactive shell
+
+If want to read from a file then enter ./file_inputs.txt. It will read the file and presents output on the terminal
+
+
+Unit Testing
+For Unit Testing, there is a file named as Test_Parking_Lot.java
+In this, a test case is taken and on the basis of this particular test case all the functions are tested.
+By running this file, it is found that all the test cases are passed.
+
+
+To test any other case, one can change the content of file_inputs.txt file and results will be displayed.
