@@ -1,5 +1,6 @@
-Src->Com->Main
+src->com->main
 There are three java files where the main source code is written.
+test_parking_lot contains Test_Parking_Lot.java where unit testing code is written.
 
 
 
@@ -11,8 +12,8 @@ If want to read from a file then enter ./file_inputs.txt. It will read the file 
 
 
 Unit Testing
-For Unit Testing, there is a file named as Test_Parking_Lot.java
-In this, a test case is taken and on the basis of this particular test case all the functions are tested.
+For Unit Testing, there is a file named as Test_Parking_Lot.java in test_parking_lot package.
+In this, a test case is taken and on the basis of this particular test case all the unit  functions are tested.
 By running this file, it is found that all the test cases are passed.
 
 
