@@ -24,7 +24,7 @@ class Test_Parking_Lot  {
 	@Test
 	void leaveTest() {
 		
-		assertEquals( "Slot 4 is free",parking.leave(4));
+		assertEquals( "Slot number 4 is free",parking.leave(4));
 	}
 	
 	@Test 
@@ -51,18 +51,18 @@ class Test_Parking_Lot  {
 	}
 	
 	@Test
-	void registrationNumberFromColour() {
+	void registrationNumberFromColourTest() {
 		assertEquals("KA-01-HH-7777" , parking.getRegistrationNumberFromColour("Red"));
 	}
 	
 	@Test
-	void slotNumbersFromcolour()
+	void slotNumbersFromcolourTest()
 	{
 		  assertEquals("4",parking.getSlotNumberFromColour("Red"));
 	}
 	
 	@Test
-	void slotnumbersFromRegNumber(){
+	void slotnumbersFromRegNumberTest(){
 	assertEquals("3" , parking.getSlotNumberFromRegistrationNumber("KA-01-BB-0001"));
 	}
 }

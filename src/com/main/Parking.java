@@ -30,7 +30,7 @@ public class Parking{
 
     public String leave(int slotNumber){
         parkingData[slotNumber-1] = null;
-        return "Slot "+slotNumber+" is free";
+        return "Slot number "+slotNumber+" is free";
     }
 
     public String getRegistrationNumberFromColour(String colour){
